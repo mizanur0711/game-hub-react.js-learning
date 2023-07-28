@@ -1,3 +1,4 @@
+
 import { useQuery } from "@tanstack/react-query";
 //import genres from "../data/genres";
 import APIClient from "../services/api-client";
@@ -11,7 +12,6 @@ export interface Genre {
   slug: string;
   games_count: number;
   image_background: string;
-  description: string;
 }
 
 const useGenres = () =>
